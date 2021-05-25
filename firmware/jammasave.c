@@ -107,8 +107,9 @@ ISR(TIM0_OVF_vect)
 	{
 		// Go for another round
 		TCNT0 = TIMER_COUNT;
-		TIFR0 &= ~(1 << TOV0);
 	}
+
+	TIFR0 &= ~(1 << TOV0);
 }
 
 ISR(PCINT0_vect)
