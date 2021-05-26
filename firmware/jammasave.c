@@ -79,7 +79,7 @@ void read_timeout_setting()
 
 	// Set timer to the timeout count - between 1/2 hour and 1 1/2 hour.
 	//	g_timeout =  1800 + ((((3600 * 32) / 512) * (uint32_t) tcnt) / 32);
-	g_timeout  = ((225UL * (uint32_t) tcnt) / 32UL ) + 1800UL;
+	g_timeout  = ((225UL * (uint32_t) tcnt) / 32UL ) +	300UL; //+ 1800UL;
 	g_timeout *= (uint32_t) TIMER_TICKS_PER_SEC;
 
 	// We don't use the ADC any more, so turn it off
