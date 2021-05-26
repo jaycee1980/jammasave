@@ -95,7 +95,7 @@ ISR(TIM0_OVF_vect)
 	// If we go over the timeout count, turn the relay off and stop the timer
 	// We then wait for a pin change interrupt to wake things up again
 
-	if (--g_timer == 0)
+	if (g_timer-- == 0)
 	{
 		// Turn relay off
 		PORTB &= ~(1 << PORTB4);
