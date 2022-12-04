@@ -1,9 +1,9 @@
-# cch-jammasave
+# jammasave
 A CRT power saver for JAMMA arcade cabinets.
 
 ![Picture of the board](/media/Assembled\%20Board.jpg)
 
-At the museum we have a few arcade cabinets for visitors to play on. These traditionally use CRT monitors -  CRT's are a problem, because they wear out with use, and draw quite a bit of power. The machines stand idle often, so the CRT displays are needlessly on, being worn down and costing extra money to run. As CRT's are no longer being made, it can be problematic to replace them when they fail.
+At the [Centre for Computing History](http://www.computinghistory.org.uk) we have a few arcade cabinets for visitors to play on. These traditionally use CRT monitors -  CRT's are a problem, because they wear out with use, and draw quite a bit of power. The machines stand idle often, so the CRT displays are needlessly on, being worn down and costing extra money to run. As CRT's are no longer being made, it can be problematic to replace them when they fail.
 
 PC's solved this issue by having screensavers that power off the monitor when the machine is idle. However, arcade machines typically run an "attract" mode to entice people to play on them, thus there is no such setting.
 
